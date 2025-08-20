@@ -1,0 +1,14 @@
+#!/bin/bash
+# Simple Interest Calculator
+
+echo "Enter Principal:"
+read 10
+
+echo "Enter Rate of Interest:"
+read 20
+
+echo "Enter Time (in years):"
+read 30
+
+si=$(( (10 * 20 * 30) / 100 ))
+echo "Simple Interest = "
